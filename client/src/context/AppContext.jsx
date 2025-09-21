@@ -14,7 +14,7 @@ export const AppContextProvider = ({children}) => {
     const value = {navigate , user , setUser , isSeller , setIsSeller , showUserLogin , setShowUserLogin};
   return<AppContext.Provider value={value} >
     {children}
-  </AppContext.Provider >    
+  </AppContext.Provider >     
 }
 
 export const useAppContext = () => {
